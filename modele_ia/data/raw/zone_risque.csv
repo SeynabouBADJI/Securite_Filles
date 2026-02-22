@@ -1,0 +1,6 @@
+longitude;latitude;NbIncidents;TypeIncident;heure;zoneIsolee;Niveau risque
+14.6928;-17.4467;5;agression;22;1;elevee
+14.7000;-17.4300;0;aucun ;10;0;faible
+14.6950;-17.4400;2;vol;18;0;moyen
+14.7100;-17.4200;4;agression;23;1;elevee
+14.6900;-17.4500;1;harcelement;15;0;faible
