@@ -1,6 +1,21 @@
-longitude;latitude;NbIncidents;TypeIncident;heure;zoneIsolee;Niveau risque
-14.6928;-17.4467;5;agression;22;1;elevee
-14.7000;-17.4300;0;aucun ;10;0;faible
-14.6950;-17.4400;2;vol;18;0;moyen
-14.7100;-17.4200;4;agression;23;1;elevee
-14.6900;-17.4500;1;harcelement;15;0;faible
+longitude;latitude;NbIncidents;TypeIncident;heure;zoneIsolee;NiveauRisque
+14.6928;-17.4467;5;agression;22;1;2
+14.7000;-17.4300;0;aucun;10;0;0
+14.6950;-17.4400;2;vol;18;0;1
+14.7100;-17.4200;4;agression;23;1;2
+14.6900;-17.4500;1;harcelement;15;0;0
+14.7050;-17.4350;3;vol;20;1;1
+14.7200;-17.4100;6;agression;21;1;2
+14.6750;-17.4550;0;aucun;11;0;0
+14.6880;-17.4470;2;vol;19;0;1
+14.6990;-17.4320;4;agression;22;1;2
+14.7120;-17.4180;5;agression;23;1;2
+14.7030;-17.4250;1;vol;17;0;0
+14.6800;-17.4600;0;aucun;9;0;0
+14.6905;-17.4440;3;harcelement;20;0;1
+14.7150;-17.4120;6;agression;22;1;2
+14.6980;-17.4390;2;vol;18;0;1
+14.7070;-17.4280;4;agression;21;1;2
+14.7205;-17.4150;5;agression;23;1;2
+14.6850;-17.4520;1;harcelement;14;0;0
+14.6955;-17.4410;2;vol;19;0;1

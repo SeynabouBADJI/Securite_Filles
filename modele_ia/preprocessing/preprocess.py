@@ -1,15 +1,14 @@
-
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
 
 def preprocess_data(path):
     data = pd.read_csv(path, sep=";")
 
-    # Encoder le type d'incident
-    encoder = LabelEncoder()
-    data["TypeIncident"] = encoder.fit_transform(data["TypeIncident"])
+    # Encodage du type d’incident
+    if "TypeIncident" in data.columns:
+        data["TypeIncident"] = data["TypeIncident"].astype("category").cat.codes
 
-    # Encoder le niveau de risque
-    data["Niveau risque"] = encoder.fit_transform(data["Niveau risque"])
+    # S’assurer que la cible s’appelle bien NiveauRisque
+    if "Niveau risque" in data.columns:
+        data = data.rename(columns={"Niveau risque": "NiveauRisque"})
 
     return data
